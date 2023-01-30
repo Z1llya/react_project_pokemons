@@ -1,4 +1,4 @@
-import Pokemons from "../components/Pokemons/Pokemons";
+import Pokemons from "../../components/Pokemons/Pokemons";
 
 export default function Home(){
     return(

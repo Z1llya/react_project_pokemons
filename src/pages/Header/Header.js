@@ -1,11 +1,12 @@
-import {Link, Outlet} from "react-router-dom"
+import {Link} from "react-router-dom";
 
-export default function Main(){
+import "./Header.css"
+
+export default function Header(){
     return(
-        <div>
+        <div className="headers">
             <div><Link to={'search'}>Search</Link></div>
             <div><Link to={'pokemons'}>Pokemons</Link></div>
-            <Outlet/>
         </div>
     );
 }

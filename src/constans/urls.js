@@ -3,11 +3,14 @@ const frontPicture = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/s
 
 const urls = {
     pokemon:'/pokemon/',
-    forms:'/pokemon-form/'
+    forms:'/pokemon-form/',
+    ability:'/ability/',
+    type:'/type/'
 };
+
 
 export {
     baseURL,
     urls,
-    frontPicture
+    frontPicture,
 }
